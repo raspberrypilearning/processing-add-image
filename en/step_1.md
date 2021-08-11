@@ -2,7 +2,7 @@
 
 If you want to use your own picture, you can do that by choosing the ‘View and add images’ button.
 
-![A plus, an upload symbol, and an image symbol. The image symbol is highlighted.](images/trinket_images.png)
+![A plus, an upload symbol, and an image symbol. The image symbol is highlighted.](images/trinket_image.png)
 
 Then choose ‘Image Library’ and follow the on-screen instructions to upload an image to your Trinket image library.
 
