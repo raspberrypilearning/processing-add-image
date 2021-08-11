@@ -29,7 +29,11 @@ def setup():
 
 Add the `image()` function to the place in the code where you want to draw your image.
 
-The `image()` function is laid out `image(image filename, x-coordinate, y-coordinate, width, height)` with the coordinates positioning the top-left of the image:
+The `image()` function is laid out:
+
+`image(image filename, x-coordinate, y-coordinate, width, height)` 
+
+The coordinates position the top-left of the image.
 
 --- code ---
 ---
