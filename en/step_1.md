@@ -1,59 +1,44 @@
-## Introduction
+### Upload an image
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+If you want to use your own picture, you can do that by choosing the ‘View and add images’ button.
 
-### What you will make
+![A plus, an upload symbol, and an image symbol. The image symbol is highlighted.](images/trinket_images.png)
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+Then choose ‘Image Library’ and follow the on-screen instructions to upload an image to your Trinket image library.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+![A button with a plus and the words 'Image Library' on it.](images/trinket_image_library.png)
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+**Tip:** Make a note of the filename for the image you’ve uploaded as you will use it in the code.
 
---- collapse ---
+### Add image code
+
+Go to the setup() function and add code create a new global variable and load the image in: 
+
+--- code ---
 ---
-title: What you will need
----
-### Hardware
+language: python
+filename: main.py - setup()
 
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+def setup():
+  global robot
+  robot = load_image('robot.png')
 
---- /collapse ---
+--- /code ---
 
---- collapse ---
+Add the `image()` function to the place in the code where you want to draw your image.
+
+The `image()` function is laid out `image(image filename, x-coordinate, y-coordinate, width, height)` with the coordinates positioning the top-left of the image:
+
+--- code ---
 ---
-title: Additional information for educators
+language: python
+
 ---
 
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
+  image(robot, 50, 50, 300, 300)
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
+--- /code ---
 
---- /collapse ---
+![The code area and output area with robot image shown.](images/inserted-robot.png)
