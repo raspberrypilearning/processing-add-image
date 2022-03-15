@@ -1,18 +1,18 @@
-### Upload an image
+### حمل الصورة
 
-If you want to use your own picture, you can do that by choosing the ‘View and add images’ button.
+إذا كنت تريد استخدام صورتك الخاصة ، فيمكنك القيام بذلك عن طريق اختيار الزر "عرض وإضافة الصور".
 
-![A plus, an upload symbol, and an image symbol. The image symbol is highlighted.](images/trinket_image.png)
+![علامة زائد ورمز تحميل ورمز صورة. يتم تمييز رمز الصورة.](images/trinket_image.png)
 
-Then choose ‘Image Library’ and follow the on-screen instructions to upload an image to your Trinket image library.
+ثم اختر "مكتبة الصور" واتبع الإرشادات التي تظهر على الشاشة لتحميل صورة إلى مكتبة صور Trinket.
 
-![A button with a plus and the words 'Image Library' on it.](images/trinket_image_library.png)
+![زر به علامة الجمع وعليه عبارة "مكتبة الصور".](images/trinket_image_library.png)
 
-**Tip:** Make a note of the filename for the image you’ve uploaded as you will use it in the code.
+**نصيحة:** قم بتدوين اسم ملف الصورة التي قمت بتحميلها حيث ستستخدمها في الكود.
 
-### Add image code
+### أضف رمز الصورة
 
-Go to the setup() function and add code create a new global variable and load the image in:
+انتقل إلى وظيفة setup () وأضف رمزًا لإنشاء متغير عالمي جديد وقم بتحميل الصورة في:
 
 --- code ---
 ---
@@ -24,13 +24,13 @@ def setup(): global robot robot = load_image('robot.png')
 
 --- /code ---
 
-Add the `image()` function to the place in the code where you want to draw your image.
+أضف دالة `image </0()> إلى المكان الموجود في الشفرة البرمجية حيث تريد رسم صورتك.</p>
 
-The `image()` function is laid out:
+<p spaces-before="0">تم تحميل الدالة <code>image ()`:
 
 `image(image filename, x-coordinate, y-coordinate, width, height)`
 
-The coordinates position the top-left of the image.
+تنسق الإحداثيات موضع أعلى يسار الصورة.
 
 --- code ---
 ---
@@ -42,4 +42,4 @@ language: python
 
 --- /code ---
 
-![The code area and output area with robot image shown.](images/inserted-robot.png)
+![منطقة الكود ومنطقة الإخراج مع صورة الروبوت المعروضة.](images/inserted-robot.png)
