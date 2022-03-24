@@ -16,8 +16,8 @@
 
 --- code ---
 ---
-language: python filename: 
-main.py - setup()
+language: python 
+filename: main.py - setup()
 ---
 
 def setup(): 
