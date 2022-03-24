@@ -16,8 +16,8 @@
 
 --- code ---
 ---
-language: python 
-filename: main.py - setup()
+language: python filename: 
+main.py - setup()
 ---
 
 def setup(): 
@@ -28,7 +28,7 @@ def setup():
 
 أضف دالة `image()` إلى المكان الموجود في الشفرة البرمجية حيث تريد رسم صورتك.
 
-تم تحميل الدالة `image ()`:
+تم تحميل الدالة `:image()`
 
 `image(ملف الصورة ,تنسيق x, تنسيق y, العرض ,الارتفاع)`
 
@@ -44,4 +44,3 @@ language: python
 --- /code ---
 
 ![منطقة الكود ومنطقة الإخراج مع صورة الروبوت المعروضة.](images/inserted-robot.png)
-
