@@ -28,7 +28,7 @@ def setup(): global robot robot = load_image('robot.png')
 
 <p spaces-before="0">تم تحميل الدالة <code>image ()`:
 
-`image(image filename, x-coordinate, y-coordinate, width, height)`
+`image(ملف الصورة, تنسيق x, تنسيق y, العرض, الارتفاع)`
 
 تنسق الإحداثيات موضع أعلى يسار الصورة.
 
