@@ -1,18 +1,18 @@
-### Upload an image
+### Een afbeelding uploaden
 
-If you want to use your own picture, you can do that by choosing the ‘View and add images’ button.
+Als je jouw eigen afbeelding wilt gebruiken, kun je dat doen door op de knop 'Afbeeldingen bekijken en toevoegen' te klikken.
 
-![A plus, an upload symbol, and an image symbol. The image symbol is highlighted.](images/trinket_image.png)
+![Een plusteken, een uploadsymbool en een afbeeldingssymbool. Het afbeeldingssymbool is gemarkeerd.](images/trinket_image.png)
 
-Then choose ‘Image Library’ and follow the on-screen instructions to upload an image to your Trinket image library.
+Kies vervolgens 'Image Library' en volg de instructies op het scherm om een afbeelding te uploaden naar je Trinket-afbeeldingenbibliotheek.
 
-![A button with a plus and the words 'Image Library' on it.](images/trinket_image_library.png)
+![Een knop met een plusje en de woorden 'Image Library' erop.](images/trinket_image_library.png)
 
-**Tip:** Make a note of the filename for the image you’ve uploaded as you will use it in the code.
+**Tip:** Noteer de bestandsnaam van de afbeelding die je hebt geüpload, omdat je die in de code gaat gebruiken.
 
-### Add image code
+### Afbeeldingscode toevoegen
 
-Go to the setup() function and add code create a new global variable and load the image in:
+Ga naar de setup() functie en voeg de code toe: maak een nieuwe globale variabele en laad de afbeelding in:
 
 --- code ---
 ---
@@ -24,13 +24,13 @@ def setup(): global robot robot = load_image('robot.png')
 
 --- /code ---
 
-Add the `image()` function to the place in the code where you want to draw your image.
+Voeg de functie `image()` toe op de plek in de code waar je jouw afbeelding wilt tekenen.
 
-The `image()` function is laid out:
+De functie `image()` is als volgt ingedeeld:
 
-`image(image filename, x-coordinate, y-coordinate, width, height)`
+`image(bestandsnaam afbeelding, x-coördinaat, y-coördinaat, afbeeldingsbreedte, afbeeldingshoogte)`
 
-The coordinates position the top-left of the image.
+De coördinaten positioneren de linkerbovenhoek van de afbeelding.
 
 --- code ---
 ---
@@ -42,4 +42,4 @@ language: python
 
 --- /code ---
 
-![The code area and output area with robot image shown.](images/inserted-robot.png)
+![Het codeveld en het uitvoerveld met getoonde afbeelding van een robot.](images/inserted-robot.png)
