@@ -28,7 +28,7 @@ def setup(): global robot robot = load_image('robot.png')
 
 Παρατίθεται η συνάρτηση `image()`:
 
-`image(image filename, x-coordinate, y-coordinate, width, height)`
+`image(αρχείο εικόνας, τετμημένη, τεταγμένη, πλάτος, ύψος)`
 
 Οι συντεταγμένες τοποθετούν το επάνω αριστερό μέρος της εικόνας.
 
