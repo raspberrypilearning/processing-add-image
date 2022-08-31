@@ -1,18 +1,18 @@
-### Upload an image
+### 画像をアップロードする
 
-If you want to use your own picture, you can do that by choosing the ‘View and add images’ button.
+自分の画像を使いたい場合は「View and add images」ボタンを選択します。
 
-![A plus, an upload symbol, and an image symbol. The image symbol is highlighted.](images/trinket_image.png)
+![プラス記号、アップロード記号、および画像記号。 画像記号が強調表示されている。](images/trinket_image.png)
 
-Then choose ‘Image Library’ and follow the on-screen instructions to upload an image to your Trinket image library.
+続いて「Image Library」を選択し、画面の指示に従って画像をTrinket Image Libraryにアップロードします。
 
-![A button with a plus and the words 'Image Library' on it.](images/trinket_image_library.png)
+![プラス記号と「Image Library」という言葉が書かれたボタン。](images/trinket_image_library.png)
 
-**Tip:** Make a note of the filename for the image you’ve uploaded as you will use it in the code.
+**ヒント：**コード中で使うので、アップロードした画像のファイル名をメモしておきます。
 
-### Add image code
+### 画像コードを追加する
 
-Go to the setup() function and add code create a new global variable and load the image in:
+setup()関数へ移動して、新しいグローバル変数を作成し、その変数に画像を読み込むコードを追加します。
 
 --- code ---
 ---
@@ -24,13 +24,13 @@ def setup(): global robot robot = load_image('robot.png')
 
 --- /code ---
 
-Add the `image()` function to the place in the code where you want to draw your image.
+画像を描画したいコード中の場所に`image()`関数を追加します。
 
-The `image()` function is laid out:
+`image()`関数の構成は以下のとおりです。
 
-`image(image filename, x-coordinate, y-coordinate, width, height)`
+`image(画像ファイル名, x座標, y座標, 画像の幅, 画像の高さ)`
 
-The coordinates position the top-left of the image.
+座標は画像の左上に配置されます。
 
 --- code ---
 ---
@@ -42,4 +42,4 @@ language: python
 
 --- /code ---
 
-![The code area and output area with robot image shown.](images/inserted-robot.png)
+![ロボット画像が表示されたコード領域と出力領域。](images/inserted-robot.png)
