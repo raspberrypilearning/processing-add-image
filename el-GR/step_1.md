@@ -12,7 +12,7 @@
 
 ### Προσθήκη κώδικα εικόνας
 
-Πήγαινε στη συνάρτηση setup() και πρόσθεσε κώδικα δημιουργίας μιας νέας καθολικής μεταβλητής και φόρτωσε την εικόνα στο:
+Go to the setup() function and add code, create a new global variable and load the image in:
 
 --- code ---
 ---
