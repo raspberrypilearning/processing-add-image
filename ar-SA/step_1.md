@@ -12,7 +12,7 @@
 
 ### أضف رمز الصورة
 
-انتقل إلى وظيفة setup() وأضف رمزًا لإنشاء متغير عالمي جديد وقم بتحميل الصورة في:
+Go to the setup() function and add code, create a new global variable and load the image in:
 
 --- code ---
 ---
