@@ -12,7 +12,7 @@ Kies vervolgens 'Image Library' en volg de instructies op het scherm om een afbe
 
 ### Afbeeldingscode toevoegen
 
-Ga naar de setup() functie en voeg de code toe: maak een nieuwe globale variabele en laad de afbeelding in:
+Go to the setup() function and add code, create a new global variable and load the image in:
 
 --- code ---
 ---
