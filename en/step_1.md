@@ -12,7 +12,7 @@ Then choose ‘Image Library’ and follow the on-screen instructions to upload 
 
 ### Add image code
 
-Go to the setup() function and add code create a new global variable and load the image in: 
+Go to the setup() function and add code, create a new global variable and load the image in: 
 
 --- code ---
 ---
