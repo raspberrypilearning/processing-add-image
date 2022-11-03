@@ -12,7 +12,7 @@
 
 ### 画像コードを追加する
 
-setup()関数へ移動して、新しいグローバル変数を作成し、その変数に画像を読み込むコードを追加します。
+Go to the setup() function and add code, create a new global variable and load the image in:
 
 --- code ---
 ---
