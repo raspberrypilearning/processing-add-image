@@ -12,7 +12,7 @@ Yna dewiswch 'Image Library' a dilyn y cyfarwyddiadau ar y sgrin i lwytho delwed
 
 ### Ychwanegu cod delwedd
 
-Ewch i'r swyddogaeth setup() ac ychwanegu cod; creu newidyn cyffredinol (global) newydd a llwytho'r ddelwedd:
+Go to the setup() function and add code, create a new global variable and load the image in:
 
 --- code ---
 ---
