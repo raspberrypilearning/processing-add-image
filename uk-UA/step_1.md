@@ -28,7 +28,7 @@ def setup(): global robot robot = load_image('robot.png')
 
 Функція `image()` викладена:
 
-`image(image filename, x-coordinate, y-coordinate, width, height)`
+`image (назва файлу зображення, координата x, координата y, ширина, висота)`
 
 Координати розташовують верхній лівий кут зображення.
 
