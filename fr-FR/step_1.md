@@ -12,7 +12,7 @@ Choisis ensuite Image Library et suis les instructions à l'écran pour téléch
 
 ### Ajouter un code d'image
 
-Go to the setup() function and add code, create a new global variable and load the image in:
+Accède à la fonction configuration() et ajoute du code, crée une nouvelle variable globale et charge l'image dans :
 
 --- code ---
 ---
