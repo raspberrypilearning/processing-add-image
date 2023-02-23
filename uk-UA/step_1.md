@@ -1,18 +1,18 @@
-### Upload an image
+### Завантажити зображення
 
-If you want to use your own picture, you can do that by choosing the ‘View and add images’ button.
+Якщо ти хочеш використати власну картинку, зроби це, натиснувши на кнопку ’View and add images’.
 
-![A plus, an upload symbol, and an image symbol. The image symbol is highlighted.](images/trinket_image.png)
+![Символ "плюс", символ "завантажити" та символ "зображення". Символ "зображення" підсвічується.](images/trinket_image.png)
 
-Then choose ‘Image Library’ and follow the on-screen instructions to upload an image to your Trinket image library.
+Потім вибери ‘Image Library’ та дотримуйся інструкцій на екрані, щоб завантажити зображення до бібліотеки зображень Trinket.
 
-![A button with a plus and the words 'Image Library' on it.](images/trinket_image_library.png)
+![Кнопка з плюсом та написом 'Image Library'.](images/trinket_image_library.png)
 
-**Tip:** Make a note of the filename for the image you’ve uploaded as you will use it in the code.
+**Порада:** Запиши назву файлу завантаженого зображення, оскільки ти будеш використовувати його в коді.
 
-### Add image code
+### Додай код зображення
 
-Go to the setup() function and add code, create a new global variable and load the image in:
+Перейди до функції setup() та додай код, створи нову глобальну змінну та завантаж в неї зображення:
 
 --- code ---
 ---
@@ -24,13 +24,13 @@ def setup(): global robot robot = load_image('robot.png')
 
 --- /code ---
 
-Add the `image()` function to the place in the code where you want to draw your image.
+Додай функцію `image()` у відповідне місце в коді, де ти хочеш намалювати своє зображення.
 
-The `image()` function is laid out:
+Функція `image()` викладена:
 
 `image(image filename, x-coordinate, y-coordinate, width, height)`
 
-The coordinates position the top-left of the image.
+Координати розташовують верхній лівий кут зображення.
 
 --- code ---
 ---
@@ -42,4 +42,4 @@ language: python
 
 --- /code ---
 
-![The code area and output area with robot image shown.](images/inserted-robot.png)
+![Показані область коду та область виводу із зображенням робота.](images/inserted-robot.png)
