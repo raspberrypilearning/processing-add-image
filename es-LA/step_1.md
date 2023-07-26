@@ -2,17 +2,17 @@
 
 Si quieres usar tu propia imagen, puedes hacerlo eligiendo el botón 'View and add images' (Ver y agregar imágenes).
 
-![Un signo más, un símbolo de subir y un símbolo de imagen. El símbolo de la imagen está resaltado.](images/trinket_image.png)
+![Un signo de suma, un símbolo de subir y un símbolo de imagen. El símbolo de la imagen está resaltado.](images/trinket_image.png)
 
 Luego elige 'Image Library' (Biblioteca de imágenes) y sigue las instrucciones en pantalla para cargar una imagen a tu biblioteca de imágenes de Trinket.
 
-![Un botón con un signo más y las palabras "Image Library".](images/trinket_image_library.png)
+![Un botón con un signo de suma y las palabras "Image Library".](images/trinket_image_library.png)
 
 **Sugerencia:** Toma nota del nombre de archivo de la imagen que subiste, ya que la usarás en el código.
 
 ### Agrega código de imagen
 
-Go to the setup() function and add code, create a new global variable and load the image in:
+Ve a la función setup() y agrega código, crea una nueva variable global y carga la imagen en:
 
 --- code ---
 ---
@@ -24,11 +24,11 @@ def setup(): global robot robot = load_image('robot.png')
 
 --- /code ---
 
-Agrega la función `image()` al lugar del código donde quieras dibujar tu imagen.
+Agrega la función `imagen()` al lugar del código donde quieras dibujar tu imagen.
 
-La función `image()` se dispone así:
+La función `imagen()` se dispone así:
 
-`image(nombre_del_archivo_de_imagen, coordinada_x, coordinada_y, ancho, alto)`
+`imagen(nombre del archivo de imagen, coordinada-x, coordinada-y, ancho, alto)`
 
 Las coordenadas posicionan la parte superior izquierda de la imagen.
 
