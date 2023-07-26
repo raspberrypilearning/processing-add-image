@@ -12,9 +12,9 @@
 
 ### أضف رمز الصورة
 
-Go to the setup() function and add code, create a new global variable and load the image in:
+انتقل إلى وظيفة setup() وأضف رمزًا لإنشاء متغير عالمي جديد وقم بتحميل الصورة في:
 
---- code ---
+--- الشفرة ---
 ---
 language: python filename: main.py - setup()
 
