@@ -1,18 +1,18 @@
-### Upload an image
+### Fazer upload de uma imagem
 
-If you want to use your own picture, you can do that by choosing the ‘View and add images’ button.
+Se você quiser usar sua própria imagem, pode fazer isso clicando no botão "View and add images".
 
-![A plus, an upload symbol, and an image symbol. The image symbol is highlighted.](images/trinket_image.png)
+![Um símbolo de adição, um símbolo de upload e um símbolo de imagem. O símbolo de imagem está realçado.](images/trinket_image.png)
 
-Then choose ‘Image Library’ and follow the on-screen instructions to upload an image to your Trinket image library.
+Em seguida, clique em "Image Library" e siga as instruções na tela para fazer upload de uma imagem para sua biblioteca de imagens Trinket.
 
-![A button with a plus and the words 'Image Library' on it.](images/trinket_image_library.png)
+![Um botão com um sinal de adição e as palavras "Image Library" nele.](images/trinket_image_library.png)
 
-**Tip:** Make a note of the filename for the image you’ve uploaded as you will use it in the code.
+**Dica:** Anote o nome do arquivo da imagem que você fez o upload, pois você o usará no código.
 
-### Add image code
+### Adicionar código da imagem
 
-Go to the setup() function and add code, create a new global variable and load the image in:
+Vá para a função setup() e adicione o código, crie uma nova variável global e carregue a imagem em:
 
 --- code ---
 ---
@@ -24,13 +24,13 @@ def setup(): global robot robot = load_image('robot.png')
 
 --- /code ---
 
-Add the `image()` function to the place in the code where you want to draw your image.
+Adicione a função `image()` no código onde você deseja desenhar sua imagem.
 
-The `image()` function is laid out:
+A função `image()` é apresentada:
 
-`image(image filename, x-coordinate, y-coordinate, width, height)`
+`image(nome do arquivo de imagem, coordenada x, coordenada y, largura, altura)`
 
-The coordinates position the top-left of the image.
+As coordenadas posicionam o canto superior esquerdo da imagem.
 
 --- code ---
 ---
@@ -42,4 +42,4 @@ language: python
 
 --- /code ---
 
-![The code area and output area with robot image shown.](images/inserted-robot.png)
+![A área de código e a área de saída mostrando a imagem do robô.](images/inserted-robot.png)
