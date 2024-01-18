@@ -1,18 +1,18 @@
-### Upload an image
+### Carica un'immagine
 
-If you want to use your own picture, you can do that by choosing the ‘View and add images’ button.
+Se desideri utilizzare una tua immagine, puoi farlo cliccando il pulsante "Visualizza e aggiungi immagini".
 
-![A plus, an upload symbol, and an image symbol. The image symbol is highlighted.](images/trinket_image.png)
+![Un segno più, un simbolo di caricamento e un simbolo di immagine. Il simbolo dell'immagine è evidenziato.](images/trinket_image.png)
 
-Then choose ‘Image Library’ and follow the on-screen instructions to upload an image to your Trinket image library.
+Quindi scegli "Image Library" e segui le istruzioni visualizzate sullo schermo per caricare un'immagine nella tua libreria di immagini Trinket.
 
-![A button with a plus and the words 'Image Library' on it.](images/trinket_image_library.png)
+![Un pulsante con un segno più e la scritta "Image Library".](images/trinket_image_library.png)
 
-**Tip:** Make a note of the filename for the image you’ve uploaded as you will use it in the code.
+**Suggerimento:** Prendi nota del nome del file dell'immagine che hai caricato poiché lo utilizzerai nel codice.
 
-### Add image code
+### Aggiungi il codice per l'immagine
 
-Go to the setup() function and add code, create a new global variable and load the image in:
+Vai alla funzione setup() e aggiungi il codice, crea una nuova variabile globale e carica l'immagine in:
 
 --- code ---
 ---
@@ -24,13 +24,13 @@ def setup(): global robot robot = load_image('robot.png')
 
 --- /code ---
 
-Add the `image()` function to the place in the code where you want to draw your image.
+Usa la funzione `image()` nel punto del codice in cui desideri disegnare la tua immagine.
 
-The `image()` function is laid out:
+La funzione `image()` è così strutturata:
 
-`image(image filename, x-coordinate, y-coordinate, width, height)`
+`image(nome immagine, coordinata x, coordinata y, larghezza, altezza)`
 
-The coordinates position the top-left of the image.
+Le coordinate indicano l'angolo in alto a sinistra dell'immagine.
 
 --- code ---
 ---
@@ -42,4 +42,4 @@ language: python
 
 --- /code ---
 
-![The code area and output area with robot image shown.](images/inserted-robot.png)
+![L'area del codice e l'area di output con l'immagine del robot mostrata.](images/inserted-robot.png)
