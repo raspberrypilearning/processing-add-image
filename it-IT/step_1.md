@@ -16,10 +16,13 @@ Vai alla funzione setup() e aggiungi il codice, crea una nuova variabile globale
 
 --- code ---
 ---
-language: python filename: main.py - setup()
+language: python
+filename: main.py - setup()
 ---
 
-def setup(): global robot robot = load_image('robot.png')
+def setup():
+  global robot
+  robot = load_image('robot.png')
 
 --- /code ---
 
