@@ -18,6 +18,7 @@ Vai alla funzione setup() e aggiungi il codice, crea una nuova variabile globale
 ---
 language: python
 filename: main.py - setup()
+
 ---
 
 def setup():
@@ -37,6 +38,7 @@ Le coordinate indicano l'angolo in alto a sinistra dell'immagine.
 --- code ---
 ---
 language: python
+
 ---
 
   image(robot, 50, 50, 300, 300)
